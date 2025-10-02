@@ -1,9 +1,9 @@
 .title {
   font-size: 2rem;
   font-weight: bold;
-  color: red;
+  color: wite;
   text-align: center;
 }
 .paragraph {
-  color: Blue;
+  color: rgb(161, 161, 221);
 }
