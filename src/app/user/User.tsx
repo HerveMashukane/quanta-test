@@ -38,7 +38,7 @@ export default function User() {
     fetchUsers();
   }, []);
 
-  if (loading) return <div className={styles.loadingText}>Loading users...</div>;
+  if (loading) return <div>Loading users...</div>;
   if (error) return <div className={styles.loadingText}>Failed to load users: {error}</div>;
 
   return (
