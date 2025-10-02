@@ -1,4 +1,6 @@
+"use client"
 import React, { useEffect, useState } from 'react'
+import styles from './userList.module.css';
 
 interface User {
     id: number,
@@ -36,10 +38,10 @@ const userList = () => {
     }, []);
 
     if(loading) {
-        return <div>Loading users...</div>;
+        return <div className={styles.loadingText}>Loading users...</div>;
     }
     if(error) {
-        return <div>Faild to load users: {error}</div>
+        return <div className={styles.error}>Faild to load users: {error}</div>
     }
 
     return (
