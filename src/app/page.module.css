@@ -1,7 +1,7 @@
 .content {
   display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
   flex-direction: column;
   height: 100vh;
   text-align: center;
@@ -17,8 +17,8 @@
 }
 
 .paragraph {
-  color: rgb(161, 161, 221);
+  color: rgb(173, 173, 192);
   font-size: 1rem;
   line-height: 1.5;
-  max-width: 600px; 
+  max-width: 600px;
 }
