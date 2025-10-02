@@ -6,7 +6,7 @@ export default function Home() {
       <h1 className={styles.title}>
         Hello, I am Herve Mashukane
       </h1>
-      <p>Welcome to My Quanta Test!</p>
+      <p className={styles.paragraph}>Welcome to My Quanta Test!</p>
     </main>
   )
 }
