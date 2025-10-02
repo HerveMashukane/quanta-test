@@ -4,9 +4,8 @@ export default function Home() {
   return (
     <main>
       <h1 className={styles.title}>
-        Next.js + CSS Modules 🚀
+        My Quanta Test on October 2, 2025
       </h1>
-      <p className={styles.paragraph}>My name is Herve Mashukane</p>
     </main>
   )
 }
