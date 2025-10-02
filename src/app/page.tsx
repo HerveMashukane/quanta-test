@@ -1,9 +1,9 @@
-import UserList from './user/userList';
+import User from "./user/User";
 
 export default function Home() {
   return (
     <div>
-      <UserList />
+      <User/>
     </div>
-  )
+  );
 }
