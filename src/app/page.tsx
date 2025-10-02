@@ -2,7 +2,7 @@ import styles from './page.module.css'
 
 export default function Home() {
   return (
-    <main>
+    <main className={styles.content}>
       <h1 className={styles.title}>
         Hello, I am Herve Mashukane
       </h1>
