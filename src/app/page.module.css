@@ -1,17 +1,24 @@
 .content {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; 
+  flex-direction: column;
+  height: 100vh;
+  text-align: center;
+  background-color: #1e1e2f;
+  padding: 0 20px;
 }
 
 .title {
   font-size: 2rem;
   font-weight: bold;
-  color: wite;
-  text-align: center;
+  color: white;
+  margin-bottom: 1rem;
 }
+
 .paragraph {
   color: rgb(161, 161, 221);
-  text-align: center;
   font-size: 1rem;
+  line-height: 1.5;
+  max-width: 600px; 
 }
