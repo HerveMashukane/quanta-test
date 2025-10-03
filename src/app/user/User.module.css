@@ -1,10 +1,21 @@
-.loadingText {
+.loadingTextFail {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;   
   width: 100vw;  
   color: red;
+  background-color: #0f172a;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.loadingText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;   
+  width: 100vw;  
+  color: white;
   background-color: #0f172a;
   font-size: 1.5rem;
   font-weight: bold;
